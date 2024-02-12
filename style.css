@@ -1,4 +1,156 @@
+html {
+	background-color: black;
+}
+
 .title {
 	text-align: center;
+	margin: 18%;
 	display: block;
+	font-size: 500%;
+	color: white;
+	font-family: 'Rubik Glitch', system-ui;
 }
+
+.aboutTitle {
+	text-align: center;
+	margin: 5%;
+	font-size: 325%;
+	display: block;
+	font-family: 'Rubik Glitch', system-ui;
+	color: white;
+}
+
+.aboutText {
+	text-align: center;
+	margin: 5%;
+	font-size: 225%;
+	display: block;
+	color: white;
+	font-family: 'Jolly Lodger', system-ui;
+}
+
+.source {
+	text-align: center;
+	font-size: 100%;
+	display: block;
+	color: grey;
+	margin-top: 4%;
+}
+a:link {
+	color: grey;
+}
+a:visited {
+	color: grey;
+}
+
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-family: 'Rampart One', sans-serif;
+}
+
+.questions {
+	color: white;
+	font-size: 175%;
+	margin-left: 5%;
+	font-family: 'Jolly Lodger', system-ui;
+	margin-top: 2%;
+}
+
+.files {
+  float: left;
+  font-size: 150%;
+}
+
+.files a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.files a:hover:not(.active) {
+  background-color: #222;
+}
+
+.container {
+	position: relative;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	margin-top: 0%;
+}
+
+.left {
+	float: left;
+	margin-left: 10%;
+}
+
+.instagram {
+	opacity: 1;
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	border-radius: 5%;
+}
+
+.facebook {
+	opacity: 1;
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	border-radius: 5%;
+}
+
+.tiktok {
+	opacity: 1;
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	border-radius: 5%;
+}
+
+.snapchat {
+	opacity: 1;
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	border-radius: 5%;
+}
+
+.twitter {
+	opacity: 1;
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	border-radius: 5%;
+}
+
+.youtube {
+	opacity: 1;
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	border-radius: 5%;
+}
+
+
+
+
