@@ -1,71 +1,28 @@
-html {
-	background-color: black;
+.bg {
+  background-color: #202020;
 }
 
-.title {
-	text-align: center;
-	margin: 18%;
-	display: block;
-	font-size: 500%;
-	color: white;
-	font-family: 'Rubik Glitch', system-ui;
-}
-
-.aboutTitle {
-	text-align: center;
-	margin: 5%;
-	font-size: 325%;
-	display: block;
-	font-family: 'Rubik Glitch', system-ui;
-	color: white;
-}
-
-.aboutText {
-	text-align: center;
-	margin: 5%;
-	font-size: 225%;
-	display: block;
-	color: white;
-	font-family: 'Jolly Lodger', system-ui;
-}
-
-.source {
-	text-align: center;
-	font-size: 100%;
-	display: block;
-	color: grey;
-	margin-top: 4%;
-}
-a:link {
-	color: grey;
-}
-a:visited {
-	color: grey;
-}
-
-.navBar {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
-  font-family: 'Rampart One', sans-serif;
+  background-color: #202020;
+  font-family: "Protest Riot", sans-serif;
+  font-size: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  z-index: 9999;
+  height: 9%;
 }
 
-.questions {
-	color: white;
-	font-size: 175%;
-	margin-left: 5%;
-	font-family: 'Jolly Lodger', system-ui;
-	margin-top: 2%;
-}
-
-.files {
+li {
   float: left;
-  font-size: 150%;
 }
 
-.files a {
+li a {
   display: block;
   color: white;
   text-align: center;
@@ -73,84 +30,105 @@ a:visited {
   text-decoration: none;
 }
 
-.files a:hover:not(.active) {
-  background-color: #222;
+li a:hover {
+  background-color: darkred;
+}
+
+.title {
+  display: block;
+  color: white;
+  background-color: #202020;
+  text-align: center;
+  font-size: 125%;
+  font-family: "Rubik Doodle Shadow", system-ui;
+  position: fixed;
+  margin-left: 40%;
+  margin-bottom: 0%;
+}
+
+.slogan {
+  position: relative;
+  margin-top: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: white;
+  font-family: 'Rubik Glitch', system-ui;
+  font-size: 650%;
+  text-align: center;
+  text-shadow: darkred 7px 7px;
+}
+
+.spacing {
+  margin-top: 7%;
+}
+
+.subTitle {
+  position: relative;
+  margin-left: 3%;
+  color: white;
+  font-family: 'Rubik Glitch', system-ui;
+  font-size: 250%;
+  margin-bottom: 0%;
+  text-shadow: darkred 5px 5px;
+  margin-right: 7%;
+}
+
+.info {
+  position: relative;
+  color: white;
+  margin-left: 5%;
+  margin-top: 3%;
+  font-family: "Protest Riot", sans-serif;
+  font-size: 150%;
+  margin-bottom: 3%;
+  margin-right: 7%;
 }
 
 .container {
-	position: relative;
-	width: 20%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 5%;
-	margin-top: 0%;
+  position: relative;
+  width: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4%;
+  margin-top: 3%;
 }
 
 .left {
-	float: left;
-	margin-left: 10%;
+  float: left;
+  margin-left: 10%;
 }
 
-.instagram {
-	opacity: 1;
-	display: inline-block;
-	width: 25%;
-	height: auto;
-	transition: .5s ease;
-	backface-visibility: hidden;
-	border-radius: 5%;
+.socialMediaName {
+  padding: 5%;
+  color: white;
+  text-align: center;
+  font-size: 100%;
+  font-family: "Protest Riot", sans-serif;
 }
 
-.facebook {
-	opacity: 1;
-	display: inline-block;
-	width: 25%;
-	height: auto;
-	transition: .5s ease;
-	backface-visibility: hidden;
-	border-radius: 5%;
+.question {
+  margin-left: 5%;
+  color: white;
+  font-size: 150%;
+  font-family: "Protest Riot", sans-serif;
+  margin-bottom: 5%;
 }
 
-.tiktok {
-	opacity: 1;
-	display: inline-block;
-	width: 25%;
-	height: auto;
-	transition: .5s ease;
-	backface-visibility: hidden;
-	border-radius: 5%;
+.resource {
+  margin-left: 5%;
+  color: white;
+  font-size: 175%;
+  font-family: "Protest Riot", sans-serif;
+  margin-bottom: 5%;
 }
 
-.snapchat {
-	opacity: 1;
-	display: inline-block;
-	width: 25%;
-	height: auto;
-	transition: .5s ease;
-	backface-visibility: hidden;
-	border-radius: 5%;
+a:link {
+  color: white;
 }
 
-.twitter {
-	opacity: 1;
-	display: inline-block;
-	width: 25%;
-	height: auto;
-	transition: .5s ease;
-	backface-visibility: hidden;
-	border-radius: 5%;
+a:visited {
+  color: white;
 }
-
-.youtube {
-	opacity: 1;
-	display: inline-block;
-	width: 25%;
-	height: auto;
-	transition: .5s ease;
-	backface-visibility: hidden;
-	border-radius: 5%;
-}
-
 
 
 
